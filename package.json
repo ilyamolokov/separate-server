@@ -1,0 +1,28 @@
+{
+  "name": "poker-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/autoload": "^5.6.0",
+    "@fastify/helmet": "^10.1.0",
+    "@fastify/http-proxy": "^8.4.0",
+    "@fastify/rate-limit": "^7.6.0",
+    "@fastify/static": "^6.6.0",
+    "@fastify/swagger": "^8.2.1",
+    "axios": "^1.2.1",
+    "cron": "^2.1.0",
+    "crons": "^1.1.1-alpha.0",
+    "exceljs": "^4.3.0",
+    "fastify": "^4.10.2",
+    "moment": "^2.29.4",
+    "moment-ranges": "^0.8.12",
+    "nodemailer": "^6.8.0"
+  }
+}
